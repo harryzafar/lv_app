@@ -9,16 +9,16 @@
     <meta content="Techzaa" name="author" />
 
     <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ asset('admin/dist/assets/images/favicon.ico') }}">
+    <link rel="shortcut icon" href="{{  asset('public/admin/dist/assets/images/favicon.ico') }}">
 
     <!-- Theme Config Js -->
-    <script src="{{ asset('admin/dist/assets/js/config.js') }}"></script>
+    <script src="{{  asset('public/admin/dist/assets/js/config.js') }}"></script>
 
     <!-- App css -->
-    <link href="{{ asset('admin/dist/assets/css/app.min.css') }}" rel="stylesheet" type="text/css" id="app-style" />
+    <link href="{{  asset('public/admin/dist/assets/css/app.min.css') }}" rel="stylesheet" type="text/css" id="app-style" />
 
     <!-- Icons css -->
-    <link href="{{ asset('admin/dist/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{  asset('public/admin/dist/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
 </head>
 
 <body class="authentication-bg position-relative">
@@ -33,11 +33,11 @@
                                 <div class="d-flex flex-column h-100">
                                     <div class="auth-brand p-3 text-center">
                                         <a href="#" class="logo-light">
-                                            <img src="{{ asset('admin/dist/assets/images/logo.png') }}" alt="logo"
+                                            <img src="{{  asset('public/admin/dist/assets/images/logo.png') }}" alt="logo"
                                                 height="22">
                                         </a>
                                         <a href="#" class="logo-dark">
-                                            <img src="{{ asset('admin/dist/assets/images/logo-dark.png') }}"
+                                            <img src="{{  asset('public/admin/dist/assets/images/logo-dark.png') }}"
                                                 alt="dark logo" height="22">
                                         </a>
                                     </div>
@@ -115,10 +115,10 @@
         </span>
     </footer>
     <!-- Vendor js -->
-    <script src="{{ asset('admin/dist/assets/js/vendor.min.js') }}"></script>
+    <script src="{{  asset('public/admin/dist/assets/js/vendor.min.js') }}"></script>
 
     <!-- App js -->
-    <script src="{{ asset('admin/dist/assets/js/app.min.js') }}"></script>
+    <script src="{{  asset('public/admin/dist/assets/js/app.min.js') }}"></script>
 
 </body>
 

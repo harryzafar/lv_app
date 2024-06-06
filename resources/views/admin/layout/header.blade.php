@@ -9,22 +9,22 @@
         <meta content="Techzaa" name="author" />
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="{{ asset('admin/dist/assets/images/favicon.ico') }}">
+        <link rel="shortcut icon" href="{{ asset('public/admin/dist/assets/images/favicon.ico') }}">
 
         <!-- Daterangepicker css -->
-        <link rel="stylesheet" href="{{ asset('admin/dist/assets/vendor/daterangepicker/daterangepicker.css') }}">
+        <link rel="stylesheet" href="{{ asset('public/admin/dist/assets/vendor/daterangepicker/daterangepicker.css') }}">
 
         <!-- Vector Map css -->
-        <link rel="stylesheet" href="{{ asset('admin/dist/assets/vendor/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css') }}">
+        <link rel="stylesheet" href="{{ asset('public/admin/dist/assets/vendor/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css') }}">
 
         <!-- Theme Config Js -->
-        <script src="{{ asset('admin/dist/assets/js/config.js') }}"></script>
+        <script src="{{ asset('public/admin/dist/assets/js/config.js') }}"></script>
 
         <!-- App css -->
-        <link href="{{ asset('admin/dist/assets/css/app.min.css') }}" rel="stylesheet" type="text/css" id="app-style" />
+        <link href="{{ asset('public/admin/dist/assets/css/app.min.css') }}" rel="stylesheet" type="text/css" id="app-style" />
 
         <!-- Icons css -->
-        <link href="{{ asset('admin/dist/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('public/admin/dist/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
     </head>
 
     <body>
