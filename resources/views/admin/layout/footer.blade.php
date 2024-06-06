@@ -40,7 +40,7 @@
                              <input class="form-check-input" type="checkbox" name="data-bs-theme"
                                  id="layout-color-light" value="light">
                              <label class="form-check-label" for="layout-color-light">
-                                 <img src="{{ asset('admin/dist/assets/images/layouts/light.png') }}" alt=""
+                                 <img src="{{  asset('public/admin/dist/assets/images/layouts/light.png') }}" alt=""
                                      class="img-fluid">
                              </label>
                          </div>
@@ -52,7 +52,7 @@
                              <input class="form-check-input" type="checkbox" name="data-bs-theme" id="layout-color-dark"
                                  value="dark">
                              <label class="form-check-label" for="layout-color-dark">
-                                 <img src="{{ asset('admin/dist/assets/images/layouts/dark.png') }}" alt=""
+                                 <img src="{{  asset('public/admin/dist/assets/images/layouts/dark.png') }}" alt=""
                                      class="img-fluid">
                              </label>
                          </div>
@@ -69,7 +69,7 @@
                                  <input class="form-check-input" type="checkbox" name="data-layout-mode"
                                      id="layout-mode-fluid" value="fluid">
                                  <label class="form-check-label" for="layout-mode-fluid">
-                                     <img src="{{ asset('admin/dist/assets/images/layouts/light.png') }}" alt=""
+                                     <img src="{{  asset('public/admin/dist/assets/images/layouts/light.png') }}" alt=""
                                          class="img-fluid">
                                  </label>
                              </div>
@@ -82,7 +82,7 @@
                                      <input class="form-check-input" type="checkbox" name="data-layout-mode"
                                          id="layout-mode-boxed" value="boxed">
                                      <label class="form-check-label" for="layout-mode-boxed">
-                                         <img src="{{ asset('admin/dist/assets/images/layouts/boxed.png') }}"
+                                         <img src="{{  asset('public/admin/dist/assets/images/layouts/boxed.png') }}"
                                              alt="" class="img-fluid">
                                      </label>
                                  </div>
@@ -100,7 +100,7 @@
                              <input class="form-check-input" type="checkbox" name="data-topbar-color"
                                  id="topbar-color-light" value="light">
                              <label class="form-check-label" for="topbar-color-light">
-                                 <img src="{{ asset('admin/dist/assets/images/layouts/light.png') }}" alt=""
+                                 <img src="{{  asset('public/admin/dist/assets/images/layouts/light.png') }}" alt=""
                                      class="img-fluid">
                              </label>
                          </div>
@@ -112,7 +112,7 @@
                              <input class="form-check-input" type="checkbox" name="data-topbar-color"
                                  id="topbar-color-dark" value="dark">
                              <label class="form-check-label" for="topbar-color-dark">
-                                 <img src="{{ asset('admin/dist/assets/images/layouts/topbar-dark.png') }}"
+                                 <img src="{{  asset('public/admin/dist/assets/images/layouts/topbar-dark.png') }}"
                                      alt="" class="img-fluid">
                              </label>
                          </div>
@@ -129,7 +129,7 @@
                                  <input class="form-check-input" type="checkbox" name="data-menu-color"
                                      id="leftbar-color-light" value="light">
                                  <label class="form-check-label" for="leftbar-color-light">
-                                     <img src="{{ asset('admin/dist/assets/images/layouts/sidebar-light.png') }}"
+                                     <img src="{{  asset('public/admin/dist/assets/images/layouts/sidebar-light.png') }}"
                                          alt="" class="img-fluid">
                                  </label>
                              </div>
@@ -141,7 +141,7 @@
                                  <input class="form-check-input" type="checkbox" name="data-menu-color"
                                      id="leftbar-color-dark" value="dark">
                                  <label class="form-check-label" for="leftbar-color-dark">
-                                     <img src="{{ asset('admin/dist/assets/images/layouts/light.png') }}"
+                                     <img src="{{  asset('public/admin/dist/assets/images/layouts/light.png') }}"
                                          alt="" class="img-fluid">
                                  </label>
                              </div>
@@ -159,7 +159,7 @@
                                  <input class="form-check-input" type="checkbox" name="data-sidenav-size"
                                      id="leftbar-size-default" value="default">
                                  <label class="form-check-label" for="leftbar-size-default">
-                                     <img src="{{ asset('admin/dist/assets/images/layouts/light.png') }}"
+                                     <img src="{{  asset('public/admin/dist/assets/images/layouts/light.png') }}"
                                          alt="" class="img-fluid">
                                  </label>
                              </div>
@@ -171,7 +171,7 @@
                                  <input class="form-check-input" type="checkbox" name="data-sidenav-size"
                                      id="leftbar-size-compact" value="compact">
                                  <label class="form-check-label" for="leftbar-size-compact">
-                                     <img src="{{ asset('admin/dist/assets/images/layouts/compact.png') }}"
+                                     <img src="{{  asset('public/admin/dist/assets/images/layouts/compact.png') }}"
                                          alt="" class="img-fluid">
                                  </label>
                              </div>
@@ -183,7 +183,7 @@
                                  <input class="form-check-input" type="checkbox" name="data-sidenav-size"
                                      id="leftbar-size-small" value="condensed">
                                  <label class="form-check-label" for="leftbar-size-small">
-                                     <img src="{{ asset('admin/dist/assets/images/layouts/sm.png') }}" alt=""
+                                     <img src="{{  asset('public/admin/dist/assets/images/layouts/sm.png') }}" alt=""
                                          class="img-fluid">
                                  </label>
                              </div>
@@ -196,7 +196,7 @@
                                  <input class="form-check-input" type="checkbox" name="data-sidenav-size"
                                      id="leftbar-size-full" value="full">
                                  <label class="form-check-label" for="leftbar-size-full">
-                                     <img src="{{ asset('admin/dist/assets/images/layouts/full.png') }}"
+                                     <img src="{{  asset('public/admin/dist/assets/images/layouts/full.png') }}"
                                          alt="" class="img-fluid">
                                  </label>
                              </div>
@@ -236,28 +236,28 @@
  </div>
 
  <!-- Vendor js -->
- <script src="{{ asset('admin/dist/assets/js/vendor.min.js') }}"></script>
+ <script src="{{  asset('public/admin/dist/assets/js/vendor.min.js') }}"></script>
 
  <!-- Daterangepicker js -->
- <script src="{{ asset('admin/dist/assets/vendor/daterangepicker/moment.min.js') }}"></script>
- <script src="{{ asset('admin/dist/assets/vendor/daterangepicker/daterangepicker.js') }}"></script>
+ <script src="{{  asset('public/admin/dist/assets/vendor/daterangepicker/moment.min.js') }}"></script>
+ <script src="{{  asset('public/admin/dist/assets/vendor/daterangepicker/daterangepicker.js') }}"></script>
 
  <!-- Apex Charts js -->
- <script src="{{ asset('admin/dist/assets/vendor/apexcharts/apexcharts.min.js') }}"></script>
+ <script src="{{  asset('public/admin/dist/assets/vendor/apexcharts/apexcharts.min.js') }}"></script>
 
  <!-- Vector Map js -->
- <script src="{{ asset('admin/dist/assets/vendor/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js') }}">
+ <script src="{{  asset('public/admin/dist/assets/vendor/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js') }}">
  </script>
  <script
-     src="{{ asset('admin/dist/assets/vendor/admin-resources/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js') }}">
+     src="{{  asset('public/admin/dist/assets/vendor/admin-resources/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js') }}">
  </script>
 
  <!-- Dashboard App js -->
- <script src="{{ asset('admin/dist/assets/js/pages/dashboard.js') }}"></script>
+ <script src="{{  asset('public/admin/dist/assets/js/pages/dashboard.js') }}"></script>
 
 
  <!-- App js -->
- <script src="{{ asset('admin/dist/assets/js/app.min.js') }}"></script>
+ <script src="{{  asset('public/admin/dist/assets/js/app.min.js') }}"></script>
 
  <!-- Sweet Alert -->
  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
